@@ -5,10 +5,12 @@ const Home2 = () => {
     const navigate = useNavigate();
   return (
     <div className="container">
+      <p>Page 2</p>
         <div>
-            <button className="page-button" onClick={() => navigate('/')}>
-            Back to Home
-            </button>
+            <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+              <button className="page-button" onClick={() => navigate('/')}>Go to Page 1</button>
+              <button className="page-button" onClick={() => navigate('/home3')}>Go to Page 3</button>
+            </div>
             <h1 className="title-box">NPK Analysis Report</h1>
         </div>
      
@@ -32,8 +34,8 @@ const Home2 = () => {
           <ul>
             <li><strong>Nitrogen: Kjeldahl digestion (total N).</strong><br /></li>
             <img src="https://cdn1.byjus.com/wp-content/uploads/2021/03/Kjeldahl-Method1.png" 
-        alt="Soil" className="centered-img-block" 
-        style={{ width: "500px", height: "300px" }}/>
+            alt="Soil" className="centered-img-block" 
+            style={{ width: "500px", height: "300px" }}/>
             <ul>
                 <li>Digestion:</li>
                 
@@ -307,14 +309,6 @@ const Home2 = () => {
         </ul>
       </section>
 
-      <button className="page-button" onClick={() => navigate('/')}>
-            Back to Home
-        </button>
-
-        <img src="https://cdn.discordapp.com/attachments/1318416746968776755/1392395265083838534/placeholderImg.jpg?ex=686f60a4&is=686e0f24&hm=5970afc0432f51f160ebd6a998daa637795c70d9f28fd6b75706b2915b68ac28&" 
-        alt="Soil" className="centered-img-block" />
-
-        
 
     </div>
   );

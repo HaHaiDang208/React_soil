@@ -6,11 +6,14 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     
+    
     <div className="container">
         <div>
-          <button className="page-button" onClick={() => navigate('/home2')}>
-            Go to Page 2
-          </button>
+          <p>Page 1</p>
+          <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+        <button className="page-button" onClick={() => navigate('/home2')}>Go to Page 2</button>
+        <button className="page-button" onClick={() => navigate('/home3')}>Go to Page 3</button>
+      </div>
           <h1 className="title-box">Soil Measurement and Analysis</h1>
         </div>
 
@@ -148,9 +151,6 @@ const Home = () => {
 
       </section>
 
-      <button className="page-button" onClick={() => navigate('/home2')}>
-            Go to Page 2
-          </button>
     </div>
   );
 };
