@@ -1,0 +1,92 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #a3c0aa;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 2px 10px rgba(211, 230, 131, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2d6a4f;
+}
+
+h2 {
+  margin-top: 2rem;
+  color: #40916c;
+}
+
+h3 {
+  margin-top: 1rem;
+  color: #28644b;
+}
+h4 {
+  margin-top: 1rem;
+  color: #5b8573;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+.title-box {
+  background-color: #40916c; /* dark green */
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.report-table th,
+.report-table td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.report-table th {
+  background-color: #e6f4ea;
+  color: #1b4332;
+}
+.page-button {
+  background-color: #219e66;        /* Dark green to match your headings */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+
+.page-button:hover {
+  background-color: #25694b;        /* Lighter green on hover */
+}
+.centered-img-block {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+
+
+
