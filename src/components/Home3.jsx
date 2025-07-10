@@ -8,8 +8,8 @@ const Home3 = () => {
     <div className="container">
       <p>Page 3</p>
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-        <button className="page-button" onClick={() => navigate('/')}>Go to Page 1</button>
-        <button className="page-button" onClick={() => navigate('/home2')}>Go to Page 2</button>
+        <button className="page-button" onClick={() => navigate('/home2')}>⬅️</button>
+        <button className="page-button" onClick={() => navigate('/home4')}>➡️</button>
       </div>
       <h1 className="title-box">GPS Module Integration with a Microprocessor (Neo-6M)</h1>
 

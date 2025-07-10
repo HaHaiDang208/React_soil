@@ -8,8 +8,8 @@ const Home2 = () => {
       <p>Page 2</p>
         <div>
             <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-              <button className="page-button" onClick={() => navigate('/')}>Go to Page 1</button>
-              <button className="page-button" onClick={() => navigate('/home3')}>Go to Page 3</button>
+              <button className="page-button" onClick={() => navigate('/')}>⬅️</button>
+              <button className="page-button" onClick={() => navigate('/home3')}>➡️</button>
             </div>
             <h1 className="title-box">NPK Analysis Report</h1>
         </div>

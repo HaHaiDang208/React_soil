@@ -11,8 +11,8 @@ const Home = () => {
         <div>
           <p>Page 1</p>
           <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-        <button className="page-button" onClick={() => navigate('/home2')}>Go to Page 2</button>
-        <button className="page-button" onClick={() => navigate('/home3')}>Go to Page 3</button>
+        <button className="page-button" onClick={() => navigate('/home4')}>⬅️</button>
+        <button className="page-button" onClick={() => navigate('/home2')}>➡️</button>
       </div>
           <h1 className="title-box">Soil Measurement and Analysis</h1>
         </div>
