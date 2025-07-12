@@ -10,7 +10,7 @@ const Home5 = () => {
         <p>Page 5</p>
         <div style={{ textAlign: 'center', marginTop: '2rem' }}>
         <button className="page-button" onClick={() => navigate('/home4')}> ⬅️ </button>
-        <button className="page-button" onClick={() => navigate('/')}>➡️</button>
+        <button className="page-button" onClick={() => navigate('/home6')}>➡️</button>
       </div>
       <h1 className="title-box">Soil Moisture Sensor Report</h1>
 
